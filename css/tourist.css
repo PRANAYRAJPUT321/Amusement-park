@@ -23,6 +23,17 @@
 .navbar a.active {
     color: #e613b1;
   }
+  .heading{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 10px;
+    color: #0f050c;
+    font-size: 35px;
+    font-family: cursive;
+    font-weight: lighter;
+    text-shadow: 2px 2px #0b0bf3;
+}
 
 .main-container{
     height: 600px;
