@@ -111,13 +111,55 @@
     font-size: 27px;
     color:blue;
   }
-  .youtube-video{
-    height: 400px;
-    width: 700px;
-    margin-left: 500px;
-   
-  
+  .container{
+    position: relative;
+    height: 600px;
+    width: 100%;
   }
+  .water-card{
+    position: absolute;
+    height: 500px;
+    width: 500px;
+    top:40px;
+    left: 40px;
+    border-radius: 20px;
+    box-shadow: 4px 3px 5px 3px rgb(224, 42, 154); 
+
+  }
+  
+
+  .water-card-image{
+    margin-top: 20px;
+    height: 300px;
+    width: 350px;
+    margin-left: 80px;
+    border-radius: 20px;
+    box-shadow: 4px 3px 5px 3px rgb(67, 112, 225);
+  }
+
+  .water-card-image:hover{
+    border: none;
+    border-radius: 20px;
+    box-shadow: 4px 3px 5px 3px rgb(67, 112, 225);
+
+  }
+  .amusement-card{
+    position: absolute;
+    height: 500px;
+    width: 500px;
+    top:40px;
+    right:40px;
+    border-radius: 20px;
+    box-shadow: 4px 3px 5px 3px rgb(224, 42, 154); 
+  }
+  .youtube-video{
+    position: absolute;
+    top: 60px;
+    left:575px;
+    height: 450px;
+    width: 650px;
+   }
+
 
   .marq {
     background-color: rgb(219, 242, 242);
@@ -132,12 +174,7 @@
 }
   
 
-  
-
-
-
-
-  /* Footer Styles */
+/* Footer Styles */
 footer {
   background-color: rgb(52, 48, 48);
   padding: 40px 0;
