@@ -1,6 +1,7 @@
 *{
     margin: 0%;
     padding: 0%;
+    /* position: relative; */
 
 }
 .navbar {
@@ -12,16 +13,31 @@
     height: 50px;
     font-weight: 100;
     font-size: 25px;
+    
   }
 
   .navbar a {
     color: #333;
     text-decoration: none;
     font-family: cursive;
+ 
+  }
+  .navbar a:hover{
+    border: 2px solid black;
+    border-radius: 15px 0 15px 0;
+    padding: 3px;
+    box-shadow: 4px 3px blue;
+    background-color: black;
+    color: white;
   }
 
 .navbar a.active {
-    color: #e613b1;
+  border: 2px solid black;
+  border-radius: 15px 0 15px 0;
+  padding: 3px;
+  box-shadow: 4px 3px blue;
+  background-color: black;
+  color: white;
   }
 
   .heading{
@@ -49,6 +65,7 @@
     font-size: 25px;
     color: rgb(245, 75, 126);
     text-shadow: 1px 1px #0d0d0e;
+    margin-bottom: 20px;
   }
   .main-heading2{
     position: absolute;
@@ -98,4 +115,112 @@
     height: 400px;
     width: 700px;
     margin-left: 500px;
+   
+  
   }
+
+  .marq {
+    background-color: rgb(219, 242, 242);
+    height: 550px;
+    width: 100%;
+    margin-top: 0%;
+}
+.marqueimg{
+  height: 550x;
+  width: 1000px;
+  margin-top: -10%;
+}
+  
+
+  .marq1 {
+    background-color: rgb(219, 242, 242);
+    height: 350px;
+    width: 100%;
+    margin-top: 0%;
+}
+.marqueimg1{
+  height: 350x;
+  width: 1000px;
+  margin-top: -20%;
+  }
+
+
+
+
+  /* Footer Styles */
+footer {
+  background-color: rgb(52, 48, 48);
+  padding: 40px 0;
+  color: #f8f5f5;
+  text-align: center;
+  font-family: cursive;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.footer-column {
+  width: 300px;
+  margin-bottom: 20px;
+}
+
+h3 {
+  font-size: 25px;
+  margin-bottom: 15px;
+  color: #f4f1f1;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li a {
+  color: #fcfafa;
+  text-decoration: none;
+  font-size: 21px;
+  transition: color 0.3s ease;
+  margin-bottom: 10px;
+}
+
+ul li a:hover {
+  color: #f31212;
+}
+
+.social-icons {
+  display: block;
+  justify-items: center;
+  margin-left: 120px;
+  margin-top: 20px;
+  height: 20px;
+  width: 40px;
+}
+
+
+.social-icons li {
+  margin: 0 8px;
+  
+}
+
+.fa {
+  font-size: 35px;
+ 
+}
+
+
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+  .footer-column {
+    width: 100%;
+  }
+}
