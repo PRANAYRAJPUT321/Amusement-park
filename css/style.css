@@ -140,7 +140,7 @@
     margin-top: 20px;
     height: 300px;
     width: 350px;
-    margin-left: 80px;
+    margin-left: 70px;
     border-radius: 20px;
     box-shadow: 4px 3px 5px 3px rgb(67, 112, 225);
   }
@@ -162,12 +162,52 @@
   }
   .amusement-card:hover{
     box-shadow: 4px 3px 5px 3px rgb(67, 112, 225);
+    height: 510px;
+    width: 500px;
+    right: 35px;
 
   }
   .water-card:hover{
     box-shadow: 4px 3px 5px 3px rgb(67, 112, 225);
+    height: 510px;
+    width: 500px;
+    left:35px;
+   }
 
-  }
+   h1{
+    text-align: center;
+    margin-top: 15px;
+    font-size: 35px;
+    font-family: cursive;
+    color: #3636d0;
+    font-weight: 200;
+    text-shadow: 2px 2px #e026b4;
+   }
+   .btn{
+    margin-top: 15px;
+   margin-left: 126px;
+   text-align: center;
+   height: 55px;
+   width: 250px;
+   border-radius: 15px 0px 15px 0px;
+   font-size: 25px;
+   color: #f4f1f1;
+   background-color:color-mix(in srgb, #1b38ca 50%, rgb(233, 12, 49) 50%);
+   box-shadow: 2px 3px 2px 3px rgb(67, 112, 225);
+   font-weight:bold;
+   font-family:cursive;
+   border:none;
+   
+   }
+
+   .btn:hover{
+    border-radius: 0px 15px 0px 15px;
+    box-shadow: 2px 3px 2px 3px rgb(217, 60, 225);
+    background-color: rgb(67, 112, 225);
+    color:black;
+    font-weight:bold;
+   }
+
   .youtube-video{
     position: absolute;
     top: 60px;
@@ -176,6 +216,7 @@
     width: 650px;
     box-shadow: 5px 4px 6px 4px rgb(13, 13, 13);
    }
+
    .youtube-video:hover{
     box-shadow: 4px 3px 5px 3px rgb(78, 203, 235);
    }
