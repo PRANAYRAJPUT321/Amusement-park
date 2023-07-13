@@ -52,12 +52,24 @@
 .main{
   background: url(../images/food.jpg)no-repeat;
   background-size: cover;
-  height: 80vh;
-  width: 100%;
-  background-position: 50% 50%;
+  height: 70vh;
+  width: 85%;
+  background-position: 70% 30%;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 7px black;
+  margin-top: 20px;
 
 
 }
+.main:hover{
+  box-shadow: 0 4px 7px rgb(19, 19, 189);
+  height: 73vh;
+  width: 90%;
+}
+
 .main h1{
 font-size: 4rem;
 font-weight: 700;
@@ -66,7 +78,17 @@ padding-left: 10%;
 color: aliceblue;
 
 }
+.row h2{
+  font-size: 45px;
+  margin-top: 20px;
+  font-style: italic;
+  color: #f8f5f5;
+  margin-top: 50px;
+  margin-left: 90px;
+  text-shadow: 2px 2px blue;
+}
 .btn1{
+  height: 80px;
 width: 200px;
 color: rgb(10, 9, 9);
 background-color: rgb(243, 245, 238);
@@ -75,10 +97,9 @@ box-shadow: 1px 1px;
 border-radius: 40px;
 text-decoration: none;
 margin-left: 10%;
-margin-top: 10%;
 
 }
-.btn:hover{
+.btn1:hover{
  box-shadow: 0 2px 5px rgb(114, 112, 25);
 
 }
