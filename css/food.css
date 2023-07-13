@@ -176,7 +176,7 @@ padding-top: 8%;
 
 .item button:hover{
   transform: scale(1.08);
-
+background-color: burlywood;
 }
 
 
@@ -257,10 +257,5 @@ footer {
       width: 100%;
     }
   }
-  @media screen and(max-width: 1000px){
-    .items{
-      grid-template-columns: repeat(,1fr);
   
-    }
-  }  
   
