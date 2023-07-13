@@ -33,6 +33,7 @@
       text-align: center;
       font-style: italic;
       font-size: 30px;
+      margin-top: -20px;
     }
     
     .card {
@@ -63,8 +64,9 @@
       text-align: center;
       font-style: italic;
       color: red;
-      text-shadow: 2px 2px rgb(240, 240, 231);
+      text-shadow: 1px 1px rgb(14, 14, 13);
       font-size: 28px;
+      font-weight: 540;
     }
     
     .card p {
@@ -84,17 +86,31 @@
     .card .buttons button {
       margin: 5px;
       font-size: 25px;
+      font-weight: 700;
       font-style: italic;
       padding: 5px 10px;
-      background-color:white;
-      color: #0b0b0b;
-      border: 0.5px solid goldenrod;
-      border-radius: 10px;
+      background-color:rgb(49, 197, 61);
+      color: #f8f3f3;
+      border-radius: 10px 0 10px 0px;
       cursor: pointer;
-      text-shadow: 1px 1px rgb(13, 199, 56);
+      text-shadow: 1px 1px rgb(20, 167, 190);
+      box-shadow: 4px 4px black;
+      width: 90%;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
     }
     
-    /* Responsive Styles */
+    .card:hover img {
+      opacity: 0.8;
+    }
+    
+    .card .buttons button:hover {
+      background-color: #be38a1;
+    }
+    
+
     @media (max-width: 767px) {
       .card {
         width: 100%;
@@ -113,19 +129,7 @@
       }
     }
     
-    /* Hover Effects */
-    .card:hover {
-      transform: translateY(-5px);
-      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-    }
-    
-    .card:hover img {
-      opacity: 0.8;
-    }
-    
-    .card .buttons button:hover {
-      background-color: #45a049;
-    }
+   
   </style>
 </head>
 <body>
