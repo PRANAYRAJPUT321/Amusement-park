@@ -49,3 +49,68 @@
     font-weight: lighter;
     text-shadow: 2px 2px #0b0bf3;
 }
+.pic{
+  height: 540px;
+  margin-left: 30px;
+  width:1250px ;
+background: url(../images/attract2.webp) no-repeat;
+margin-top: 20px;
+}
+.pic:hover{
+  color: darkred;
+}
+.container{
+  display: flex;
+  align-items: center;
+ width: 800px;
+  justify-content: left;
+  padding: 30px;
+  
+  position: relative;
+}
+.container .card{
+  max-width: 400px;
+  position: relative;
+  height:200px;
+  margin: 30px 10px;
+  padding: 20px 15px;
+
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 5px 202px rgba(0,0,0,0.5);
+  transition: 0.3s ease-in-out;
+
+}
+.container .card:hover{
+  height: 370px;
+}
+
+.container .card .imgbox{
+  position: relative;
+  width: 370px;
+  height: 370px;
+  top: -60px;
+  left: 10px;
+  z-index: 1;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+}
+.container .card .imgbox img{
+  max-width: 100%;
+  border-radius: 4px;
+}
+.container .card .content{
+  position: relative;
+  margin-top: -130px;
+  padding: 10px 15px;
+  text-align: center;
+  color: #111;
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.3s ease-in-out;
+}
+.container .card:hover .content{
+  visibility: visible;
+  opacity: 1;
+  margin-top: -40px;
+  transition-delay: 0.3s ;
+}

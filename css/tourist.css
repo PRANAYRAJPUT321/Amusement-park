@@ -60,7 +60,7 @@
     padding: 15px;
     background: url(../images/pic10.png ) no-repeat;
     background-size:cover ;
-    opacity: 0.7;
+   
 }
 .main-container:hover{
     box-shadow: 0 4px 7px black;
