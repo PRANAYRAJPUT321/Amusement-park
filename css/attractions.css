@@ -57,7 +57,7 @@ background: url(../images/attract2.webp) no-repeat;
 margin-top: 20px;
 }
 .pic:hover{
-  color: darkred;
+  box-shadow:2px 3px 4px 3px gray;
 }
 .container{
   display: flex;
