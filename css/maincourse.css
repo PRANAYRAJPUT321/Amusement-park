@@ -47,9 +47,9 @@ body {
   
   
   .container h1{
-    font-size: 50px;
+    font-size: 60px;
     font-style: oblique;
-    margin-top: 3%;
+    margin-top: 2%;
   }
   .container h2{
     font-size: 40px;
@@ -82,7 +82,7 @@ body {
   .card h1{
     padding: 5px;
     text-align: center;
-    font-size: 40px;
+    font-size: 35px;
   }
   .card h2{
     padding: 5px;
