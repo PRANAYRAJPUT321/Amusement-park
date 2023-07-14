@@ -51,12 +51,12 @@
 }
 
 .main-container{
-   height: 500px;
-   width: 1400px;
+   height: 570px;
+   width: 1500px;
    align-items: center;
-    margin-right: 105px;
-    margin-left: 170px;
-    margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 30px;
     padding: 15px;
     background: url(../images/pic10.png ) no-repeat;
     background-size:cover ;
@@ -64,10 +64,10 @@
 }
 .main-container:hover{
     box-shadow: 0 4px 7px black;
-    height: 500px;
-   width: 1500px;
-   margin-right: 150px;
-   margin-left: 120px;
+    height: 570px;
+   width: 1600px;
+   margin-right: auto;
+   margin-left: auto;
 
 }
 

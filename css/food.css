@@ -52,34 +52,62 @@
 .main{
   background: url(../images/food.jpg)no-repeat;
   background-size: cover;
-  height: 80vh;
-  width: 100%;
-  background-position: 50% 50%;
+  height: 70vh;
+  width: 85%;
+  background-position: 70% 30%;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 7px black;
+  margin-top: 20px;
 
 
 }
+.main:hover{
+  box-shadow: 0 4px 7px rgb(19, 19, 189);
+  height: 73vh;
+  width: 90%;
+}
+.main h2{ 
+  font-size: 90px;
+  padding-top: 60px;
+  font-style: italic;
+  color: hsl(0, 18%, 97%);
+  margin-left: 150px;
+  text-shadow: 2px 2px blue;
+}
+
 .main h1{
+  margin-top: -35px;
 font-size: 4rem;
 font-weight: 700;
-padding-top: 80%;
-padding-left: 10%;
+padding-left: 13%;
 color: aliceblue;
 
 }
+
 .btn1{
+  height: 60px;
 width: 200px;
 color: rgb(10, 9, 9);
 background-color: rgb(243, 245, 238);
 font-weight: bold;
-box-shadow: 1px 1px;
-border-radius: 40px;
+font-size: 28px;
+border-radius:  15px 0 15px 0 ;
 text-decoration: none;
-margin-left: 10%;
-margin-top: 10%;
+margin-left: 13%;
+font-weight: 500;
+border: none;
+box-shadow: 5px 5px rgb(15, 15, 106);
+margin-top: 15px;
+font-style: italic;
 
 }
-.btn:hover{
- box-shadow: 0 2px 5px rgb(114, 112, 25);
+.btn1:hover{
+ box-shadow: 5px 5px rgb(239, 8, 224);
+ border-radius: 0px 20px 0px 20px ;
+ 
 
 }
 .container h1{
@@ -107,70 +135,56 @@ padding-top: 8%;
   
 }
 
-
-
-.cards .box-container {
-  display: flex;
-   flex-wrap: wrap;
-   gap: 2%;
-  
+.items{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  padding: 30px 20px;
+  grid-column-gap: 20px;
+  grid-row-gap: 30px;
+  text-decoration: none;
 }
 
-.cards .box-container .box {
-  border: .1rem solid #0000001a;
-  border-radius: 8px;
-  text-align: center;
-  position: relative;
-  overflow: hidden;
-  background-color: rgb(237, 234, 231);
-  flex: auto;
-}
-.cards .box-container .box:hover{
-  box-shadow: 0 4px 6px rgb(39, 39, 37);
-}
-
-
-
-.cards .box-container .box .content {
-  padding: 24px;
-}
-
-.cards .box-container .box img {
+.item img{
+  width: 100%;
   height: 300px;
+  object-fit: cover;
+  cursor: pointer;
+  transition: 0.2s ease;
 
 }
 
-
-
-.cards .box-container .box .content h3 {
-  color: var(--black);
-  font-size: 2.5rem;
+.item img:hover{
+  transform: scale(1.05);
 }
 
-.cards .box-container .box .content .price {
-  color: var(--black);
-  font-size: 2.5rem;
-  font-weight: bolder;
-  padding: 1rem 0;
+.item h1{
+  padding: 5px;
+  text-align: center;
+}
+.btt{
+  text-decoration: none;
 }
 
-.cards .box-container .box .content .price span {
-  color: var(--orange);
-  font-size: 1.5rem;
-  text-decoration: line-through;
+.item button{
+  padding: 5px 30px;
+  border: #0f050c;
+  background-color: bisque;
+  color: black;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 20px;
+  display: block;
+  margin: 0 auto;
+  transition: 0.2s all;
+  text-decoration: none;
+} 
+
+.item button:hover{
+  transform: scale(1.08);
+background-color: burlywood;
+text-decoration: none;
 }
 
-.cards .box-container .box .content .btn2{
-  width: 80px;
-color: rgb(10, 9, 9);
-background-color: rgb(243, 245, 238);
-height: 40px;
-font-size: 15px;
-}
-
-.cards .box-container .box .content .btn2:hover{
-  box-shadow: 0 3px 6px rgb(62, 62, 51);
-}
 
 
 footer {
@@ -244,8 +258,10 @@ footer {
   
   
   /* Responsive Styles */
-  @media screen and (max-width: 768px) {
+   @media screen and (max-width: 768px) {
     .footer-column {
       width: 100%;
     }
-  }
+  } 
+   
+  
