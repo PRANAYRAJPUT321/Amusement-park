@@ -50,10 +50,11 @@
     text-shadow: 2px 2px #0b0bf3;
 }
 .pic{
-  height: 540px;
+  height: 530px;
+  width: 1100px;
   margin-left: 30px;
-  width:1250px ;
-background: url(../images/attract2.webp) no-repeat;
+ 
+background: url(../images/attract.webp) no-repeat;
 margin-top: 20px;
 }
 .pic:hover{
