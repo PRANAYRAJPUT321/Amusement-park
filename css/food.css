@@ -141,6 +141,7 @@ padding-top: 8%;
   padding: 30px 20px;
   grid-column-gap: 20px;
   grid-row-gap: 30px;
+  text-decoration: none;
 }
 
 .item img{
@@ -160,6 +161,9 @@ padding-top: 8%;
   padding: 5px;
   text-align: center;
 }
+.btt{
+  text-decoration: none;
+}
 
 .item button{
   padding: 5px 30px;
@@ -172,11 +176,13 @@ padding-top: 8%;
   display: block;
   margin: 0 auto;
   transition: 0.2s all;
+  text-decoration: none;
 } 
 
 .item button:hover{
   transform: scale(1.08);
 background-color: burlywood;
+text-decoration: none;
 }
 
 
