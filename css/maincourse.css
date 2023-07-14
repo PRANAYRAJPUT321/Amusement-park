@@ -82,10 +82,13 @@ body {
   .card h1{
     padding: 5px;
     text-align: center;
+    font-size: 40px;
   }
   .card h2{
     padding: 5px;
     text-align: center;
+    font-size: 30px;
+    color: #3d324c;
   }
   .btt{
     text-decoration: none;
