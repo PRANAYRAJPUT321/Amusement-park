@@ -46,7 +46,7 @@ body {
   }
   
   .container {
-    background-image: url(../images/maincourse.jpg);
+    /* background-image: url(../images/maincourse.jpg); */
     max-width: 100%;
     margin: 10px 10px 10px 10px auto;
     padding: 20px;
