@@ -3,153 +3,48 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Main Course</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      background-color: #f5f5f5;
-      margin: 0;
-      padding: 0;
-    }
-    
-    .container {
-      max-width: 100%;
-      margin: 10px 10px 10px 10px auto;
-      padding: 20px;
-      justify-content: space-evenly;
-      margin-left: auto;
-      margin-right: auto;
-    }
-    
-    h1 {
-      text-align: center;
-      font-size: 80px;
-  font-family: cursive;
-  color: hsl(0, 87%, 51%);
-  text-shadow: 4px 4px rgb(205, 212, 10);
-    }
-    
-    p {
-      text-align: center;
-      font-style: italic;
-      font-size: 30px;
-      margin-top: -20px;
-    }
-    
-    .card {
-        height: 500px;
-        width: 470px;
-      background-color: #fff;
-      border-radius: 10px;
-      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-      padding: 20px;
-      margin-bottom: 20px;
-      justify-content: space-evenly;
-      margin:20px 30px;
-    }
-    .card-container{
-        display: flex;
-        justify-content: space-evenly;
-        margin: 10px;
-    }
-    
-    .card img {
-      max-width: 100%;
-      height: 270px;
-      border-radius: 10px;
-    }
-    
-    .card h2 {
-      margin: 20px 0;
-      text-align: center;
-      font-style: italic;
-      color: red;
-      text-shadow: 1px 1px rgb(14, 14, 13);
-      font-size: 28px;
-      font-weight: 540;
-    }
-    
-    .card p {
-      margin: 8px 0;
-      text-align: center;
-      color: rgb(11, 11, 11);
-      text-shadow: 2px 2px rgb(250, 244, 250);
-      font-weight: 700;
-    }
-    
-    .card .buttons {
-      text-align: center;
-      margin-top: 7px;
-      
-    }
-    
-    .card .buttons button {
-      margin: 5px;
-      font-size: 25px;
-      font-weight: 700;
-      font-style: italic;
-      padding: 5px 10px;
-      background-color:rgb(49, 197, 61);
-      color: #f8f3f3;
-      border-radius: 10px 0 10px 0px;
-      cursor: pointer;
-      text-shadow: 1px 1px rgb(20, 167, 190);
-      box-shadow: 4px 4px black;
-      width: 90%;
-    }
-    .card:hover {
-      transform: translateY(-5px);
-      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-    }
-    
-    .card:hover img {
-      opacity: 0.8;
-    }
-    
-    .card .buttons button:hover {
-      background-color: #be38a1;
-    }
-    
-
-    @media (max-width: 767px) {
-      .card {
-        width: 100%;
-      }
-    }
-    
-    @media (min-width: 768px) and (max-width: 991px) {
-      .card {
-        width: 48%;
-      }
-    }
-    
-    @media (min-width: 992px) {
-      .card {
-        width: 31%;
-      }
-    }
-    
-   
-  </style>
+  <title>Main Course</title> 
+  <link rel="stylesheet" href="../css/maincourse.css">  
 </head>
 <body>
+  <header>
+    <nav>
+        <div class="navbar">
+            <a href="../index.html">Home</a>
+            <a href="../pages/ticket booking.html">Tickets</a>
+            <a href="../pages/visitors.html">Gallery</a>
+            <a href="../pages/food.html" class="active">Food</a>
+            <a href="../pages/attractions.html">Attractions</a>
+            <a href="../pages/events.html" >Events</a>
+            <a href="../pages/accmodation.html">Accomadation</a>
+            <a href="../pages/guidelines.html">Guidelines</a>
+            <a href="../pages/about.html">About</a>
+            <a href="../pages/contact.html">Contact</a>
+          </div>
+    </nav>
+  </header>
+  <hr>
+
+  <!-- <img src="../images/maincourse.jpg" height="500px" width="100%" alt=""> -->
   <div class="container">
-    <h1>Main Course</h1>
+    <a href="../pages/food.html"><button class="btt">🔙</button></a>
+    <h1> Main Course</h1>
     <p>Delicious main course dishes that will satisfy your taste buds.</p>
-    
+
    
-    <div class="card-container">
+    
+   <div class="card-container">
         <div class="card">
-           <img src="../images/food10.webp" alt="Dish">
+           <img src="../images/maincourse1.jpg" alt="Dish">
            <h2>MAHARAJA THALI</h2>
-           <p>Price - 400 rs only/-</p>
+           <p>Price 400 rs only/-</p>
            <div class="buttons">
              <button>Order From Counter</button>
              <button>Deliver To My Table</button>
            </div>
          </div>
          <div class="card">
-            <img src="dish1.jpg" alt="Dish">
+            <img src="../images/maincourse2.jpg" alt="Dish">
             <h2>MAHARAJA THALI</h2>
             <p>Price 400 rs only/-</p>
             <div class="buttons">
@@ -159,7 +54,7 @@
           </div>
          
          <div class="card">
-           <img src="dish1.jpg" alt="Dish">
+           <img src="../images/maincourse3.jpg" alt="Dish">
            <h2>MAHARAJA THALI</h2>
            <p>Price 400 rs only/-</p>
            <div class="buttons">
@@ -168,7 +63,7 @@
            </div>
          </div>
          <div class="card">
-           <img src="dish1.jpg" alt="Dish">
+           <img src="../images/maincourse4.jpg" alt="Dish">
            <h2>MAHARAJA THALI</h2>
            <p>Price 400 rs only/-</p>
            <div class="buttons">
@@ -179,7 +74,7 @@
        </div>
        <div class="card-container">
         <div class="card">
-            <img src="dish1.jpg" alt="Dish">
+            <img src="../images/maincourse5.jpg" alt="Dish">
             <h2>MAHARAJA THALI</h2>
             <p>Price 400 rs only/-</p>
             <div class="buttons">
@@ -188,7 +83,7 @@
             </div>
           </div>
         <div class="card">
-           <img src="dish1.jpg" alt="Dish">
+           <img src="../images/maincourse6.jpg" alt="Dish">
            <h2>MAHARAJA THALI</h2>
            <p>Price 400 rs only/-</p>
            <div class="buttons">
@@ -198,7 +93,7 @@
          </div>
          
          <div class="card">
-           <img src="dish1.jpg" alt="Dish">
+           <img src="../images/maincourse7.jpg" alt="Dish">
            <h2>MAHARAJA THALI</h2>
            <p>Price 400 rs only/-</p>
            <div class="buttons">
@@ -207,7 +102,7 @@
            </div>
          </div>
          <div class="card">
-           <img src="dish1.jpg" alt="Dish">
+           <img src="../images/maincourse8.jpg" alt="Dish">
            <h2>MAHARAJA THALI</h2>
            <p>Price 400 rs only/-</p>
            <div class="buttons">
@@ -218,7 +113,7 @@
        </div>
        <div class="card-container">
         <div class="card">
-            <img src="dish1.jpg" alt="Dish">
+            <img src="../images/maincourse9.jpg" alt="Dish">
             <h2>MAHARAJA THALI</h2>
             <p>Price 400 rs only/-</p>
             <div class="buttons">
@@ -227,7 +122,7 @@
             </div>
           </div>
         <div class="card">
-            <img src="dish1.jpg" alt="Dish">
+            <img src="../images/maincourse10.jpg" alt="Dish">
            <h2>MAHARAJA THALI</h2>
            <p>Price 400 rs only/-</p>
            <div class="buttons">
@@ -237,7 +132,7 @@
          </div>
          
          <div class="card">
-           <img src="dish1.jpg" alt="Dish">
+           <img src="../images/maincourse11.jpg" alt="Dish">
            <h2>MAHARAJA THALI</h2>
            <p>Price 400 rs only/-</p>
            <div class="buttons">
@@ -246,7 +141,7 @@
            </div>
          </div>
          <div class="card">
-           <img src="dish1.jpg" alt="Dish">
+           <img src="../images/maincourse12.jpg" alt="Dish">
            <h2>MAHARAJA THALI</h2>
            <p>Price 400 rs only/-</p>
            <div class="buttons">
@@ -256,5 +151,68 @@
          </div>
        </div>
   </div>
+
+  <footer>
+    <div class="footer-container">
+  
+      <div class="footer-column">
+        <h3>Follow Us</h3>
+        <ul class="social-icons">
+          <li><a href="#"><i class="social-iconss">
+            <img src="../images/instagram.png"height="40px">
+            </i></a></li>
+          <li><a href="#"><i class="social-iconss">
+            <img src="../images/twitter.png"height="40px">
+          </i></a></li>
+          <li><a href="#"><i class="social-iconss">
+            <img src="../images/facebool.png"height="40px">  
+          </i></a></li>
+          <li><a href="#"><i class="social-iconss">
+            <img src="../images/youtube.png" height="40px">
+          </i></a></li>
+        </ul>
+      </div>
+  
+     
+      <div class="footer-column">
+        <h3>Contact Us</h3>
+        <ul>
+          <li><a href="#"> <img src="../images/call.png" height="40" > Phone no: 123-456-789</a></li>
+          <li><a href="#"> <img src="../images/mail.png" height="40">Email:ptlpark@gmail.com</a></li>
+          <li><a href="#"> <img src="../images/map.png" height="40">Address: Burdi (Nagpur)</a></li>
+          <li><a href="#"> <img src="../images/whatsapp.png" height="40">Whatsapp: 987-654-321</a></li>
+        </ul>
+      </div>
+  
+      <div class="footer-column">
+        <h3>Help</h3>
+        <ul>
+          <li><a href="#">Payments</a></li><br>
+          <li><a href="#">Ticket Booking</a></li><br>
+          <li><a href="#">F&Qs</a></li><br>
+          <li><a href="#">Customer Support</a></li>
+         
+        </ul>
+      </div>
+  
+      
+  
+      <div class="footer-column">
+        <h3>Guidelines</h3>
+        <ul>
+          <li><a href="#">Terms & Conditons</a></li><br>
+          <li><a href="#">Refund Policy</a></li><br>
+          <li><a href="#">Accidents <br>Responibility</a></li><br>
+          <li><a href="#">Feedback</a></li><br>
+        </ul>
+      </div>
+  
+      <div class="footer-column">
+        <h3>About Us</h3>
+        <p>"Experience the thrill of a lifetime at our state-of-the-art amusement park. With a wide range of exhilarating rides, captivating entertainment, and delectable dining options, we're committed to providing unforgettable moments of joy and excitement for visitors of all ages. Come and create lasting memories with us!"</p>
+      </div>
+  
+    </div>
+  </footer>
 </body>
 </html>
