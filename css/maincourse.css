@@ -45,7 +45,14 @@ body {
     padding: 0; */
   }
   
-  
+  .container {
+    max-width: 100%;
+    margin: 10px 10px 10px 10px auto;
+    padding: 20px;
+    justify-content: space-evenly;
+    margin-left: auto;
+    margin-right: auto;
+  }
   .container h1{
     font-size: 60px;
     font-style: oblique;
@@ -55,7 +62,7 @@ body {
     font-size: 40px;
    color: darkslategray;
    font-style: oblique;
-   margin-bottom: 2%;
+   margin-bottom: 1%;
   }
   .cards{
     display: grid;
