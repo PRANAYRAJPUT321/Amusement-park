@@ -1,0 +1,74 @@
+
+*{
+    margin: 0%;
+    padding: 0%;
+
+}
+.navbar {
+    background-color: #fff;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: larger;
+    height: 50px;
+    font-weight: 100;
+    font-size: 25px;
+  }
+
+  .navbar a {
+    color: #333;
+    text-decoration: none;
+    font-family: cursive;
+  }
+
+  .navbar a:hover{
+    border: 2px solid black;
+    border-radius: 15px 0 15px 0;
+    padding: 3px;
+    box-shadow: 4px 3px blue;
+    background-color: black;
+    color: white;
+  }
+
+.navbar a.active {
+  border: 2px solid black;
+  border-radius: 15px 0 15px 0;
+  padding: 3px;
+  box-shadow: 4px 3px blue;
+  background-color: black;
+  color: white;
+  }
+body {
+    font-size: 18px;
+    line-height: 1.5;
+    margin: 40px;
+  }
+  
+  h1 {
+    font-size: 24px;
+  }
+  
+  h2 {
+    font-size: 20px;
+  }
+  
+  form {
+    max-width: 600px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="date"],
+  input[type="number"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  input[type="submit"] {
+    padding: 10px 20px;
+    font-size: 18px;
+  }
+  
