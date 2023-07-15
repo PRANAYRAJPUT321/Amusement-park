@@ -41,7 +41,7 @@
 body {
     font-size: 18px;
     line-height: 1.5;
-    margin: 40px;
+    /* margin: 40px; */
   }
   
   h1 {
@@ -54,6 +54,9 @@ body {
   
   form {
     max-width: 600px;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
   }
   
   input[type="text"],
