@@ -46,7 +46,6 @@ body {
   }
   
   .container {
-    /* background-image: url(../images/maincourse.jpg); */
     max-width: 100%;
     margin: 10px 10px 10px 10px auto;
     padding: 20px;
@@ -55,13 +54,15 @@ body {
     margin-right: auto;
   }
   .container h1{
-    font-size: 50px;
+    font-size: 60px;
     font-style: oblique;
+    margin-top: 2%;
   }
   .container h2{
     font-size: 40px;
    color: darkslategray;
    font-style: oblique;
+   margin-bottom: 1%;
   }
   .cards{
     display: grid;
@@ -88,10 +89,13 @@ body {
   .card h1{
     padding: 5px;
     text-align: center;
+    font-size: 35px;
   }
   .card h2{
     padding: 5px;
     text-align: center;
+    font-size: 30px;
+    color: #3d324c;
   }
   .btt{
     text-decoration: none;
