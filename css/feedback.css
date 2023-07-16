@@ -39,6 +39,8 @@
   color: white;
   }
 body {
+  background-image: url(../images/feedback.jpg);
+  background-size: cover;
     font-size: 18px;
     line-height: 1.5;
     /* margin: 40px; */
