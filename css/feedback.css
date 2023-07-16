@@ -41,8 +41,8 @@
 body {
   background-image: url(../images/feedback.jpeg);
   background-size: cover;
-    font-size: 18px;
-    line-height: 1.5;
+    /* font-size: 18px;
+    line-height: 1.5; */
     /* margin: 40px; */
   }
   
@@ -67,7 +67,7 @@ body {
   
   form {
     height: 900px;
-    max-width: 700px;
+    max-width: 900px;
     justify-content: center;
     margin-left: auto;
     margin-right: auto;
@@ -77,6 +77,13 @@ body {
     font-size: 30px;
     margin-bottom: -20px;
     
+  }
+  label{
+    /* margin-left: -250px; */
+    color: #0ae812;
+    font-size: 40px;
+    text-shadow: 2px 2px rgb(12, 11, 11);
+    font-weight: 900;
   }
   
   input[type="text"],
@@ -91,7 +98,7 @@ body {
     background-color: transparent;
     color: #fff;
     border: double 5px white;
-    border-radius: 20px;
+    border-radius: 20px 0px 20px 0px;
   }
   
   input[type="submit"] {
@@ -99,7 +106,7 @@ body {
     width: 100%;
     height: 60px;
     margin-top: 50px;
-    border-radius: 10px;
+    border-radius: 20px 0px 20px 0px;
     border: double 4px white;
     background-color: transparent;
    
