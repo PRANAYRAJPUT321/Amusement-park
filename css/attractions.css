@@ -42,12 +42,12 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin-top: 10px;
+    margin-top: 20px;
     color: #f3ecf1;
-    font-size: 35px;
-    font-family: cursive;
+    font-size: 45px;
+   
     font-weight: lighter;
-    text-shadow: 2px 2px rgb(125, 233, 215);
+    text-shadow: 2px 2px rgb(79, 82, 81);
 }
 .pic{
   height: 630px;
