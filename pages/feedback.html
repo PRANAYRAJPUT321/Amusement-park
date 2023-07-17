@@ -13,7 +13,7 @@
                 <a href="../index.html">Home</a>
                 <a href="../pages/ticket booking.html">Tickets</a>
                 <a href="../pages/visitors.html">Gallery</a>
-                <a href="../pages/food.html" class="active">Food</a>
+                <a href="../pages/food.html">Food</a>
                 <a href="../pages/attractions.html">Attractions</a>
                 <a href="../pages/events.html" >Events</a>
                 <a href="../pages/accmodation.html">Accomadation</a>
@@ -31,32 +31,92 @@
   <link rel="stylesheet" type="text/css" href="feedback.css">
 </head>
 <body>
-  <h1>Feedback Page</h1>
+  <h1 class="h11">GIVE YOUR FEEDBACK HERE 👇</h1>
 
-  <p>We value your feedback! Please take a moment to share your thoughts and experiences at our amusement park. Your feedback helps us improve and provide you with the best possible experience. Thank you for your time!</p>
+  <p class="p2">We value your feedback! Please take a moment to share your thoughts and experiences at our amusement park.<br> Your feedback helps us improve and provide you with the best possible experience. Thank you for your time!</p>
 
-  <h2>Feedback Form</h2>
+  <h2 class="h22">Feedback Form</h2>
 
-  <form action="submit_feedback.php" method="POST">
+  <form>
     <label for="name">Name:</label>
     <input type="text" id="name" name="name" required><br><br>
 
     <label for="email">Email:</label>
     <input type="email" id="email" name="email" required><br><br>
 
-    <label for="date">Date of Visit:</label>
+    <label for="date">D.O.V:</label>
     <input type="date" id="date" name="date" required><br><br>
 
-    <label for="rating">Overall Rating (1-5):</label>
+    <label for="rating">Rating(1-5):</label>
     <input type="number" id="rating" name="rating" min="1" max="5" required><br><br>
 
-    <label for="feedback">Please provide your feedback or comments below:</label><br>
+    <label for="feedback">Your Feedback</label><br>
     <textarea id="feedback" name="feedback" rows="5" cols="50" required></textarea><br><br>
-
-    <input type="submit" value="Submit Feedback">
+ 
+    <a href="../pages/feedbackimage.html"><button class="bttt">submit</button></a>
   </form>
-</body>
-</html>
+  <footer>
+    <div class="footer-container">
+  
+      <div class="footer-column">
+        <h3>Follow Us</h3>
+        <ul class="social-icons">
+          <li><a href="#"><i class="social-iconss">
+            <img src="../images/instagram.png"height="40px">
+            </i></a></li>
+          <li><a href="#"><i class="social-iconss">
+            <img src="../images/twitter.png"height="40px">
+          </i></a></li>
+          <li><a href="#"><i class="social-iconss">
+            <img src="../images/facebool.png"height="40px">  
+          </i></a></li>
+          <li><a href="#"><i class="social-iconss">
+            <img src="../images/youtube.png" height="40px">
+          </i></a></li>
+        </ul>
+      </div>
+  
+     
+      <div class="footer-column">
+        <h3>Contact Us</h3>
+        <ul>
+          <li><a href="#"> <img src="../images/call.png" height="40" > Phone no: 123-456-789</a></li>
+          <li><a href="#"> <img src="../images/mail.png" height="40">Email:ptlpark@gmail.com</a></li>
+          <li><a href="#"> <img src="../images/map.png" height="40">Address: Burdi (Nagpur)</a></li>
+          <li><a href="#"> <img src="../images/whatsapp.png" height="40">Whatsapp: 987-654-321</a></li>
+        </ul>
+      </div>
+  
+      <div class="footer-column">
+        <h3>Help</h3>
+        <ul>
+          <li><a href="#">Payments</a></li><br>
+          <li><a href="#">Ticket Booking</a></li><br>
+          <li><a href="#">F&Qs</a></li><br>
+          <li><a href="#">Customer Support</a></li>
+         
+        </ul>
+      </div>
+  
+      
+  
+      <div class="footer-column">
+        <h3>Guidelines</h3>
+        <ul>
+          <li><a href="#">Terms & Conditons</a></li><br>
+          <li><a href="#">Refund Policy</a></li><br>
+          <li><a href="#">Accidents <br>Responibility</a></li><br>
+          <li><a href="../pages/feedback.html" class="active">Feedback</a></li><br>
+        </ul>
+      </div>
+  
+      <div class="footer-column">
+        <h3>About Us</h3>
+        <p>"Experience the thrill of a lifetime at our state-of-the-art amusement park. With a wide range of exhilarating rides, captivating entertainment, and delectable dining options, we're committed to providing unforgettable moments of joy and excitement for visitors of all ages. Come and create lasting memories with us!"</p>
+      </div>
+  
+    </div>
+  </footer>
 
 </body>
 </html>
