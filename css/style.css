@@ -12,7 +12,7 @@
     font-size: larger;
     height: 50px;
     font-weight: 100;
-    font-size: 25px;
+    font-size: 20px;
     
   }
 
@@ -48,9 +48,9 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin-top: 15px;
+    margin-top: 10px;
     color: #0f050c;
-    font-size: 55px;
+    font-size: 45px;
     font-family: cursive;
     font-weight: lighter;
     text-shadow: 4px 4px #0b0bf3;
@@ -62,7 +62,7 @@
     text-align: center;
     margin-top: 15px;
     font-family: cursive;
-    font-size: 25px;
+    font-size: 22px;
     color: rgb(245, 75, 126);
     text-shadow: 1px 1px #0d0d0e;
     margin-bottom: 20px;
@@ -76,7 +76,7 @@
     text-align: center;
     margin-top: 15px;
     font-family: cursive;
-    font-size: 27px;
+    font-size: 24px;
     color:blue;
   }
    
@@ -90,27 +90,27 @@
     }
   .image1{
     position: absolute;
-    height: 400px;
-    width: 500px;
+    height: 300px;
+    width: 400px;
     top: 100px;
-    left:95px;
+    left:25px;
     border-radius: 20px;
     box-shadow: 4px 3px 5px 3px rgb(67, 112, 225);
   }
 
   .image1:hover{
     box-shadow: 4px 3px 5px 3px rgb(224, 42, 154); 
-    height: 420px;
-    width: 520px;
-    left: 80px;
+    height: 320px;
+    width: 420px;
+    left: 30px;
   }
   .discription{
     position: absolute;
     font-family: cursive;
     font-size: 20px;
-    left: 640px;
-    top: 133px;
-    right: 110px;
+    left: 460px;
+    top: 113px;
+    right: 20px;
   }
   .main-heading3{
     text-align: center;

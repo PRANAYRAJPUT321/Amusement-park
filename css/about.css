@@ -11,7 +11,7 @@
     font-size: larger;
     height: 50px;
     font-weight: 100;
-    font-size: 25px;
+    font-size: 20px;
   }
 
   .navbar a {
@@ -48,6 +48,57 @@
     font-family: cursive;
     font-weight: lighter;
     text-shadow: 2px 2px #0b0bf3;
+}
+.main-heading2{
+  position: absolute;
+  top: 60px;
+  left:460px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 15px;
+  font-family: cursive;
+  font-size: 24px;
+  color:blue;
+}
+.park{
+  position: relative;
+  margin-top: -70px;
+  width: 100%;
+  height: 540px;
+  
+
+}
+.image1{
+position: absolute;
+height: 350px;
+width: 420px;
+top: 110px;
+left:15px;
+border-radius: 20px;
+box-shadow: 4px 3px 5px 3px rgb(67, 112, 225);
+}
+
+.image1:hover{
+box-shadow: 4px 3px 5px 3px rgb(224, 42, 154); 
+height: 360px;
+width: 430px;
+left: 10px;
+}
+.discription{
+position: absolute;
+font-family: cursive;
+font-size: 20px;
+left: 460px;
+top: 100px;
+right: 20px;
+}
+.main-heading3{
+text-align: center;
+margin-top: 15px;
+font-family: cursive;
+font-size: 27px;
+color:blue;
 }
 
 
