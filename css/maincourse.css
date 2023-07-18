@@ -138,24 +138,26 @@ body {
     .footer-container {
       display: flex;
       flex-wrap: wrap;
-      justify-content: space-around;
+      /* justify-content: space-evenly; */
       max-width: 100%;
+      justify-content: left;
       margin: 0 auto;
+      /* justify-items: end; */
     }
     
     .footer-column {
-      width: 300px;
-      margin-bottom: 20px;
+      width: 265px;
+      margin-bottom: 10px;
     }
     
     h3 {
-      font-size: 25px;
+      font-size: 21px;
       margin-bottom: 15px;
       color: #f8f5f5;
     }
     
     p {
-      font-size: 16px;
+      font-size: 14px;
       line-height: 1.5;
     }
     
@@ -167,7 +169,7 @@ body {
     ul li a {
       color: #f6f3f3;
       text-decoration: none;
-      font-size: 21px;
+      font-size: 17px;
       transition: color 0.3s ease;
       margin-bottom: 10px;
     }
@@ -179,7 +181,8 @@ body {
     .social-icons {
       display: block;
       justify-items: center;
-      margin-left: 120px;
+      margin-left: auto;
+      margin-right: auto;
       margin-top: 20px;
       height: 20px;
       width: 40px;
@@ -192,7 +195,7 @@ body {
     }
     
     .fa {
-      font-size: 35px;
+      font-size: 30px;
      
     }
     
