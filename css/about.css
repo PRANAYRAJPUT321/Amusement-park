@@ -136,6 +136,13 @@ color:blue;
     border-radius: 10px;
 
 }
+.thumbnail:hover img
+{
+    height: 290px;
+    width: 290px;
+    box-shadow:  3px 3px 3px 3px rgb(9, 9, 9);
+    border-radius: 50%;
+}
 .paras
 {
     padding: 0px 85px;
