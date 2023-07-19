@@ -100,6 +100,41 @@ font-family: cursive;
 font-size: 27px;
 color:blue;
 }
+.secright
+{
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    max-width:80% ;
+    margin:auto;
+    font-family: 'Ubuntu', sans-serif;
+}
+.secleft
+{
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    max-width:80% ;
+    margin:auto;
+ font-family: 'Ubuntu', sans-serif;
+    flex-direction: row-reverse;
+}
+.thumbnail img
+{
+    height: 300px;
+    width: 300px;
+
+}
+.paras
+{
+    padding: 0px 65px;
+}
+.subsectiontag
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 
 .main-container{
   font-family: Arial, sans-serif;
