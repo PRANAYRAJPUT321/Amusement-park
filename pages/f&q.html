@@ -23,5 +23,34 @@
         </nav>
       </header>
       <hr>
+      <div id="faq-container">
+        <div class="faq">
+          <div class="question">What are the park's opening hours?</div>
+          <div class="answer">The park is open from 9:00 AM to 8:00 PM on weekdays and from 10:00 AM to 9:00 PM on weekends.</div>
+        </div>
+    
+        <div class="faq">
+          <div class="question">Is there parking available?</div>
+          <div class="answer">Yes, we have ample parking space available near the park entrance.</div>
+        </div>
+    
+        <div class="faq">
+          <div class="question">Can I bring outside food and drinks?</div>
+          <div class="answer">Outside food and drinks are not allowed inside the park. We have various food stalls and restaurants offering delicious meals.</div>
+        </div>
+    
+        <!-- Add more questions and answers here -->
+    
+      </div>
+    
+      <script>
+        const faqs = document.querySelectorAll('.faq');
+    
+        faqs.forEach(faq => {
+          faq.addEventListener('click', () => {
+            faq.classList.toggle('active');
+          });
+        });
+      </script>
 </body>
 </html>
