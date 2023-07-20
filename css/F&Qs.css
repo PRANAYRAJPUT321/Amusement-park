@@ -80,10 +80,32 @@ body {
   .answer {
     display: none;
     margin-top: 10px;
+    opacity: 0;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s, opacity 0.3s;
   }
 
   .faq.active .answer {
     display: block;
+    max-height: 1000px;
+      opacity: 1;
+      transition: max-height 0.3s, opacity 0.5s;
+  }
+  .show-answers-btn {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+
+  .show-answers-btn:hover {
+    background-color: #0056b3;
   }
 
   @media only screen and (max-width: 600px) {
