@@ -88,6 +88,12 @@
             faq.classList.toggle('active');
           });
         });
+
+        showAnswersBtn.addEventListener('click', () => {
+      faqs.forEach(faq => {
+        faq.classList.add('active');
+      });
+    });
       </script>
 </body>
 </html>
