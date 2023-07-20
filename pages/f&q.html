@@ -75,7 +75,7 @@
             <div class="answer">Yes, you can bring your own camera, but professional photography equipment and drones are not allowed.</div>
           </div>
       
-          <button class="show-answers-btn">Show Answers</button>
+          <button class="show-answers-btn" onclick="toggleAnswers()">Show Answers</button>
         
     
       </div>
@@ -89,11 +89,22 @@
           });
         });
 
-        showAnswersBtn.addEventListener('click', () => {
-      faqs.forEach(faq => {
-        faq.classList.add('active');
-      });
-    });
+        function toggleAnswers() {
+      const showAnswersBtn = document.querySelector('.show-answers-btn');
+      const areAllActive = Array.from(faqs).every(faq => faq.classList.contains('active'));
+
+      if (areAllActive) {
+        faqs.forEach(faq => {
+          faq.classList.remove('active');
+        });
+        showAnswersBtn.textContent = 'Show Answers';
+      } else {
+        faqs.forEach(faq => {
+          faq.classList.add('active');
+        });
+        showAnswersBtn.textContent = 'Hide Answers';
+      }
+    }
       </script>
 </body>
 </html>
