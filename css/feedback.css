@@ -13,6 +13,8 @@
     height: 50px;
     font-weight: 100;
     font-size: 20px;
+    background-color: #20d6ee;
+    animation: animateBg 5s linear infinite ;
   }
 
   .navbar a {
@@ -83,8 +85,8 @@
    /* background: url(../images/bg.jpg)no-repeat;
    background-size: cover; */
    background-position: center;
-   background-color: #f31212;
-   animation: animateBg 5s linear infinite ;
+   background-color: #eae2e2;
+   /* animation: animateBg 5s linear infinite ; */
 }
 @keyframes animateBg {
    100%{
