@@ -253,7 +253,8 @@ animation: animateBg 5s linear infinite ;
     .social-icons {
       display: block;
       justify-items: center;
-      margin-left: 120px;
+      margin-left: auto;
+      margin-right: auto;
       margin-top: 20px;
       height: 20px;
       width: 40px;
