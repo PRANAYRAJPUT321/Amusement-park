@@ -30,7 +30,7 @@
     border: 2px solid black;
     border-radius: 15px 0 15px 0;
     padding: 3px;
-    box-shadow: 4px 3px blue;
+    box-shadow: 4px 3px rgb(247, 247, 249);
     background-color: black;
     color: white;
   }
