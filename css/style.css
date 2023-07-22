@@ -15,6 +15,11 @@
     font-size: 20px;
     
   }
+  @keyframes animateBg {
+    100%{
+       filter:hue-rotate(360deg);
+    }
+ }
 
   .navbar a {
     color: #333;

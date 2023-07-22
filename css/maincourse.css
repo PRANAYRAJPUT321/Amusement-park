@@ -144,6 +144,11 @@ body {
       margin: 0 auto;
       /* justify-items: end; */
     }
+    @keyframes animateBg {
+      100%{
+         filter:hue-rotate(360deg);
+      }
+   }
     
     .footer-column {
       width: 265px;
