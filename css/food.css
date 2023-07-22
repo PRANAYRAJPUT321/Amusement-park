@@ -31,7 +31,7 @@
     border: 2px solid black;
     border-radius: 15px 0 15px 0;
     padding: 3px;
-    box-shadow: 4px 3px blue;
+    box-shadow: 4px 3px rgb(242, 242, 245);
     background-color: black;
     color: white;
   }
@@ -40,7 +40,7 @@
   border: 2px solid black;
   border-radius: 15px 0 15px 0;
   padding: 3px;
-  box-shadow: 4px 3px blue;
+  box-shadow: 4px 3px rgb(245, 245, 248);
   background-color: black;
   color: white;
   }

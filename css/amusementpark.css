@@ -28,7 +28,7 @@
     border: 2px solid black;
     border-radius: 15px 0 15px 0;
     padding: 3px;
-    box-shadow: 4px 3px blue;
+    box-shadow: 4px 3px rgb(249, 249, 250);
     background-color: black;
     color: white;
   }
@@ -37,7 +37,7 @@
   border: 2px solid black;
   border-radius: 15px 0 15px 0;
   padding: 3px;
-  box-shadow: 4px 3px blue;
+  box-shadow: 4px 3px rgb(249, 249, 251);
   background-color: black;
   color: white;
   }
