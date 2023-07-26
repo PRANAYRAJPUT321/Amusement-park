@@ -48,17 +48,17 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin-top: 20px;
-    color: #f3ecf1;
-    font-size: 45px;
+    margin-top: 30px;
+    color: #e2d9e2;
+    font-size: 60px;
    
     font-weight: lighter;
-    text-shadow: 2px 2px rgb(79, 82, 81);
+    text-shadow: 2px 2px rgb(104, 107, 104);
 }
 .pic{
-  height: 550px;
+  height: 560px;
   width: 90%;
-  background: url(../images/attract.webp) no-repeat;
+  background: url(../images/attract.jpg) no-repeat;
    background-size: cover;
 margin-top: 20px;
 margin-left: auto;
@@ -66,6 +66,7 @@ margin-right: auto;
 }
 .pic:hover{
   box-shadow:2px 3px 4px 3px gray;
+  scale: 1.05;
 }
 .container{
   display: flex;
