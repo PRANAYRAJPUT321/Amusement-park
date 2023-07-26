@@ -13,7 +13,7 @@
     font-weight: 100;
     font-size: 20px;
     background-color: #20d6ee;
-    animation: animateBg 5s linear infinite ;
+    /* animation: animateBg 5s linear infinite ; */
   }
   @keyframes animateBg {
     100%{

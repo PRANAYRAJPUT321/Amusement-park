@@ -4,7 +4,7 @@
 
 }
 .navbar {
-    background-color: #0de2e2;
+  background-color: white;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -12,7 +12,7 @@
     height: 50px;
     font-weight: 100;
     font-size: 20px;
-    animation: animateBg 5s linear infinite ;
+    /* animation: animateBg 5s linear infinite ; */
   }
 
   .navbar a {
