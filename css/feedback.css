@@ -14,7 +14,7 @@
     font-weight: 100;
     font-size: 20px;
     background-color: #11a3b7;
-    animation: animateBg 5s linear infinite ;
+    /* animation: animateBg 5s linear infinite ; */
   }
 
   .navbar a {
