@@ -49,3 +49,18 @@
     font-weight: lighter;
     text-shadow: 2px 2px #0b0bf3;
 }
+
+.container{
+  background: url(../images/event1.jpg)no-repeat;
+  background-size: cover;
+  height: 80vh;
+  width: 100%;
+  background-position: 70% 30%;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 7px black;
+  margin-top: 20px;
+}
+
