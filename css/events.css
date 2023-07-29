@@ -45,22 +45,44 @@
   }
 
   .heading{
-    justify-content: center;
+    justify-content: left;
     align-items: center;
-    text-align: center;
+    text-align: left;
     margin-top: 10px;
-    color: #0f050c;
-    font-size: 35px;
+    color: #f5eef3;
+    font-size: 45px;
     font-family: cursive;
-    font-weight: lighter;
+    font-weight: 900;
     text-shadow: 2px 2px #0b0bf3;
 }
-
+.heading{
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #f5eef3;
+  font-size: 65px;
+  font-family: cursive;
+  font-weight: 900;
+  text-shadow: 3px 3px #cedc34;
+  font-style: italic;
+}
+.heading1{
+  justify-content: left;
+  align-items: center;
+  text-align: left;
+  margin-top: 10px;
+  color: #f5eef3;
+  font-style: italic;
+  font-size: 45px;
+  font-family: cursive;
+  font-weight: 900;
+  text-shadow: 2px 2px #0b0bf3;
+}
 .container{
   background: url(../images/event1.jpg)no-repeat;
   background-size: cover;
   height: 80vh;
-  width: 100%;
+  width: 90%;
   background-position: 70% 30%;
   justify-content: center;
   margin-left: auto;
