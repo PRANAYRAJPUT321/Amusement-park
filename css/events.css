@@ -68,14 +68,26 @@ text-align: center;
 .container{
   background: url(../images/event1.jpg)no-repeat;
   background-size: cover;
-  height: 80vh;
+  height: 75vh;
+  width: 88%;
+  background-position: 70% 30%;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 4px 7px black;
+  margin-top: 20px;
+}
+
+.container:hover{
+  background: url(../images/event1.jpg)no-repeat;
+  background-size: cover;
+  height: 77vh;
   width: 90%;
   background-position: 70% 30%;
   justify-content: center;
   margin-left: auto;
   margin-right: auto;
-  border-radius: 10px;
-  box-shadow: 0 4px 7px black;
+  border-radius: 20px;
+  box-shadow: 0 4px 7px rgb(168, 17, 135);
   margin-top: 20px;
 }
-
