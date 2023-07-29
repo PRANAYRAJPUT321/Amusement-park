@@ -61,9 +61,8 @@
   text-align: center;
   color: #f5eef3;
   font-size: 65px;
-  font-family: cursive;
   font-weight: 900;
-  text-shadow: 3px 3px #cedc34;
+  text-shadow: 3px 3px #c90be2;
   font-style: italic;
 }
 .heading1{
@@ -73,10 +72,9 @@
   margin-top: 10px;
   color: #f5eef3;
   font-style: italic;
-  font-size: 45px;
-  font-family: cursive;
+  font-size: 40px;
   font-weight: 900;
-  text-shadow: 2px 2px #0b0bf3;
+  text-shadow: 1px 1px black;
 }
 .container{
   background: url(../images/event1.jpg)no-repeat;
