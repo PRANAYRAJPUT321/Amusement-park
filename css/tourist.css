@@ -16,7 +16,7 @@
   }
   @keyframes animateBg {
     100%{
-       filter:hue-rotate(720deg);
+       filter:hue-rotate(360deg);
     }
  }
 
