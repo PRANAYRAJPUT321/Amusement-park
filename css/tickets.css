@@ -57,18 +57,18 @@
 }
 h1{
   text-align: center;
-    color: #f5eef3;
+    color: #f6eeee;
     margin-bottom: 360px;
     font-size: 65px;
     font-weight: 900;
-    text-shadow: 2px 2px #d995e4;
+    text-shadow: 2px 2px #db56ed;
     font-style: italic;
     
   }
   .heading{
     text-align: center;
-    background: linear-gradient(rgb(209, 190, 190), rgb(225, 225, 124), rgb(219, 74, 98));
-    color: #f5eef3;
+   
+    color: #000000;
     margin-bottom: 360px;
     font-size: 35px;
     font-weight: 900;
@@ -77,7 +77,7 @@ h1{
    
   }
   .container{
-    background: url(../images/ticket.jpg)no-repeat;
+    background: url(../images/ticket3.jpg)no-repeat;
     background-size: cover;
     height: 75vh;
     width: 88%;
@@ -90,7 +90,7 @@ h1{
   }
   
   .container:hover{
-    background: url(../images/ticket.jpg)no-repeat;
+    background: url(../images/ticket2.jpg)no-repeat;
     background-size: cover;
     height: 77vh;
     width: 90%;
