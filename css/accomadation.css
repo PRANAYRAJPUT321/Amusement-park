@@ -75,7 +75,7 @@ h1{
     text-shadow: 2px 2px rgb(225, 9, 171);
   }
   .container{
-    background: url(../images/event1.jpg)no-repeat;
+    background: url(../images/hotel.avif)no-repeat;
     background-size: cover;
     height: 75vh;
     width: 88%;
@@ -88,7 +88,7 @@ h1{
   }
   
   .container:hover{
-    background: url(../images/event1.jpg)no-repeat;
+    background: url(../images/hotel1.avif)no-repeat;
     background-size: cover;
     height: 77vh;
     width: 90%;
