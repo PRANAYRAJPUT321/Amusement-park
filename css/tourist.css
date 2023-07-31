@@ -49,11 +49,20 @@
     text-align: left;
     margin-top: 10px;
     margin-left: 10px;
-    color: #0f050c;
-    font-size: 40px;
-    font-family: cursive;
+    color: #20121c;
+    font-size: 65px;
+    
     font-weight: lighter;
-    text-shadow: 2px 2px #0b0bf3;
+    text-shadow: 2px 2px #f5af77;
+}
+.font{
+  justify-content: left;
+  align-items: left;
+  text-align: left;
+  font-size: 35px;
+  text-shadow: 2px 2px #f3d0d0;
+  margin-left: 10px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .main-container{
