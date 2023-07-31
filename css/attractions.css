@@ -53,7 +53,7 @@
     font-size: 65px;
    
     font-weight: lighter;
-    text-shadow: 2px 2px rgb(105, 80, 73);
+    text-shadow: 2px 2px rgb(204, 82, 163);
 }
 .font{
   font-size: 35px;
@@ -72,10 +72,18 @@
 margin-top: 20px;
 margin-left: auto;
 margin-right: auto;
+font-style: italic;
+box-shadow:black 1px 4px 8px;
 }
 .pic:hover{
-  box-shadow:2px 3px 4px 3px gray;
+  box-shadow:2px 3px 4px 3px rgb(245, 166, 102);
   scale: 1.05;
+}
+.style{
+  font-style: italic;
+  font-size: 25px;
+  text-shadow: rgb(224, 182, 120) 2px 2px;
+
 }
 .container{
   display: flex;
