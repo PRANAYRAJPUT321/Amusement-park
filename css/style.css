@@ -29,12 +29,14 @@
  
   }
   .navbar a:hover{
-    border: 2px solid black;
+    /* border: 2px solid rgb(240, 234, 234); */
     border-radius: 15px 0 15px 0;
     padding: 3px;
-    box-shadow: 4px 3px rgb(245, 245, 246);
-    background-color: black;
-    color: white;
+    /* box-shadow: 4px 3px rgb(245, 245, 246);
+    background-color: black; */
+    color: rgb(240, 239, 240);
+    background: linear-gradient(rgb(11, 107, 126), rgb(37, 226, 134));
+    
   }
 
 .navbar a.active {
@@ -96,8 +98,8 @@
     }
   .image1{
     position: absolute;
-    height: 300px;
-    width: 400px;
+    height: 200px;
+    width: 300px;
     top: 100px;
     left:25px;
     border-radius: 20px;
@@ -132,8 +134,8 @@
   }
   .water-card{
     position: absolute;
-    height: 500px;
-    width: 500px;
+    height: 380px;
+    width: 350px;
     top:40px;
     left: 40px;
     border-radius: 20px;
@@ -144,9 +146,10 @@
 
   .water-card-image{
     margin-top: 20px;
-    height: 300px;
-    width: 350px;
-    margin-left: 70px;
+    height: 230px;
+    width: 230px;
+    margin-left: auto;
+    margin-right: auto;
     border-radius: 20px;
     box-shadow: 4px 3px 5px 3px rgb(67, 112, 225);
   }
@@ -159,8 +162,8 @@
   }
   .amusement-card{
     position: absolute;
-    height: 500px;
-    width: 500px;
+    height: 380px;
+    width: 350px;
     top:40px;
     right:40px;
     border-radius: 20px;
@@ -168,22 +171,22 @@
   }
   .amusement-card:hover{
     box-shadow: 4px 3px 5px 3px rgb(67, 112, 225);
-    height: 510px;
-    width: 500px;
+    height: 390px;
+    width: 350px;
     right: 35px;
 
   }
   .water-card:hover{
     box-shadow: 4px 3px 5px 3px rgb(67, 112, 225);
-    height: 510px;
-    width: 500px;
+    height: 390px;
+    width: 350px;
     left:35px;
    }
 
    h1{
     text-align: center;
     margin-top: 15px;
-    font-size: 35px;
+    font-size: 25px;
     font-family: cursive;
     color: #3636d0;
     font-weight: 200;
@@ -191,12 +194,13 @@
    }
    .btn{
     margin-top: 15px;
-   margin-left: 126px;
+  left: auto;
+  right: auto;
    text-align: center;
-   height: 55px;
-   width: 250px;
+   height: 45px;
+   width: 210px;
    border-radius: 15px 0px 15px 0px;
-   font-size: 28px;
+   font-size: 24px;
    color: #0d0d0d;
    background-color:white;
    box-shadow: 2px 3px 2px 3px rgb(96, 125, 203);
@@ -217,9 +221,9 @@
   .youtube-video{
     position: absolute;
     top: 60px;
-    left:575px;
-    height: 450px;
-    width: 650px;
+    left:445px;
+    height: 350px;
+    width: 450px;
     box-shadow: 5px 4px 6px 4px rgb(13, 13, 13);
    }
 
