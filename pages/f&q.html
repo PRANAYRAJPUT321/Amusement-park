@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="../css/F&Qs.css">
 </head>
 <body>
     <header>
@@ -16,12 +17,157 @@
                 <a href="../pages/attractions.html">Attractions</a>
                 <a href="../pages/events.html" >Events</a>
                 <a href="../pages/accmodation.html">Accomadation</a>
-                <a href="../pages/guidelines.html">Guidelines</a>
+                <!-- <a href="../pages/guidelines.html">Guidelines</a> -->
                 <a href="../pages/about.html">About</a>
-                <a href="../pages/contact.html">Contact</a>
+                <!-- <a href="../pages/contact.html">Contact</a> -->
               </div>
         </nav>
       </header>
       <hr>
+      <h1 class="heading">F&Qs</h1>
+      <div id="faq-container">
+        <div class="faq">
+          <div class="question">What are the park's opening hours?</div>
+          <div class="answer">The park is open from 9:00 AM to 8:00 PM on weekdays and from 10:00 AM to 9:00 PM on weekends.</div>
+        </div>
+    
+        <div class="faq">
+          <div class="question">Is there parking available?</div>
+          <div class="answer">Yes, we have ample parking space available near the park entrance.</div>
+        </div>
+    
+        <div class="faq">
+          <div class="question">Can I bring outside food and drinks?</div>
+          <div class="answer">Outside food and drinks are not allowed inside the park. We have various food stalls and restaurants offering delicious meals.</div>
+        </div>
+        <div class="faq">
+            <div class="question">Are pets allowed in the park?</div>
+            <div class="answer">No, pets are not allowed inside the park for safety and hygiene reasons.</div>
+          </div>
+      
+          <div class="faq">
+            <div class="question">Do you offer discounts for groups?</div>
+            <div class="answer">Yes, we offer special discounts for groups with 20 or more people. Please contact our sales team for more information.</div>
+          </div>
+      
+          <div class="faq">
+            <div class="question">Are there ATMs available inside the park?</div>
+            <div class="answer">Yes, there are ATMs available near the park entrance and at various locations throughout the park.</div>
+          </div>
+      
+          <div class="faq">
+            <div class="question">Can I buy tickets online?</div>
+            <div class="answer">Yes, you can purchase tickets online through our website and mobile app.</div>
+          </div>
+      
+          <div class="faq">
+            <div class="question">Are there lockers available for personal belongings?</div>
+            <div class="answer">Yes, we provide lockers for visitors to store their personal belongings securely.</div>
+          </div>
+      
+          <div class="faq">
+            <div class="question">Do you have facilities for people with disabilities?</div>
+            <div class="answer">Yes, we have accessible facilities and services to accommodate visitors with disabilities.</div>
+          </div>
+      
+          <div class="faq">
+            <div class="question">Can I bring my own camera inside the park?</div>
+            <div class="answer">Yes, you can bring your own camera, but professional photography equipment and drones are not allowed.</div>
+          </div>
+      
+          <button class="show-answers-btn" onclick="toggleAnswers()">Show Answers</button>
+        
+    
+      </div>
+      <footer>
+        <div class="footer-container">
+      
+          <div class="footer-column">
+            <h3>Follow Us</h3>
+            <ul class="social-icons">
+              <li><a href="#"><i class="social-iconss">
+                <img src="../images/instagram.png"height="40px">
+                </i></a></li>
+              <li><a href="#"><i class="social-iconss">
+                <img src="../images/twitter.png"height="40px">
+              </i></a></li>
+              <li><a href="#"><i class="social-iconss">
+                <img src="../images/facebool.png"height="40px">  
+              </i></a></li>
+              <li><a href="#"><i class="social-iconss">
+                <img src="../images/youtube.png" height="40px">
+              </i></a></li>
+            </ul>
+          </div>
+      
+         
+          <div class="footer-column">
+            <h3>Contact Us</h3>
+            <ul>
+              <li><a href="#"> <img src="../images/call.png" height="40" > Phone no: 123-456-789</a></li>
+              <li><a href="#"> <img src="../images/mail.png" height="40">Email:ptlpark@gmail.com</a></li>
+              <li><a href="#"> <img src="../images/map.png" height="40">Address: Burdi (Nagpur)</a></li>
+              <li><a href="#"> <img src="../images/whatsapp.png" height="40">Whatsapp: 987-654-321</a></li>
+            </ul>
+          </div>
+      
+          <div class="footer-column">
+            <h3>Help</h3>
+            <ul>
+              <li><a href="../pages/payments.html">Payments</a></li><br>
+              <li><a href="../pages/ticket booking.html">Ticket Booking</a></li><br>
+              <li><a href="../pages/f&q.html">F&Qs</a></li><br>
+              <li><a href="../pages/customersupport.html">Customer Support</a></li>
+             
+            </ul>
+          </div>
+      
+          
+      
+          <div class="footer-column">
+            <h3>Guidelines</h3>
+            <ul>
+              <li><a href="../pages/">Terms & Conditons</a></li><br>
+              <li><a href="../pages/refund.html">Refund Policy</a></li><br>
+              <li><a href="../pages/accidents&responsibilities.html">Accidents <br>Responibility</a></li><br>
+              <li><a href="../pages/feedback.html">Feedback</a></li><br>
+            </ul>
+          </div>
+      
+          <div class="footer-column">
+            <h3>About Us</h3>
+            <p>"Experience the thrill of a lifetime at our state-of-the-art amusement park. With a wide range of exhilarating rides, captivating entertainment, and delectable dining options, we're committed to providing unforgettable moments of joy and excitement for visitors of all ages. Come and create lasting memories with us!"</p>
+          </div>
+      
+        </div>
+      </footer>
+      
+    
+      <script>
+        const faqs = document.querySelectorAll('.faq');
+    
+        faqs.forEach(faq => {
+          faq.addEventListener('click', () => {
+            faq.classList.toggle('active');
+          });
+        });
+
+        function toggleAnswers() {
+      const showAnswersBtn = document.querySelector('.show-answers-btn');
+      const areAllActive = Array.from(faqs).every(faq => faq.classList.contains('active'));
+
+      if (areAllActive) {
+        faqs.forEach(faq => {
+          faq.classList.remove('active');
+        });
+        showAnswersBtn.textContent = 'Show Answers';
+      } else {
+        faqs.forEach(faq => {
+          faq.classList.add('active');
+        });
+        showAnswersBtn.textContent = 'Hide Answers';
+      }
+    }
+      </script>
 </body>
 </html>

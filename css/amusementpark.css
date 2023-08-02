@@ -4,16 +4,21 @@
 
 }
 .navbar {
-    background-color: #fff;
+    background-color: #08e3ef;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     font-size: larger;
     height: 50px;
     font-weight: 100;
-    font-size: 25px;
+    font-size: 20px;
+    /* animation: animateBg 5s linear infinite ; */
   }
-
+  @keyframes animateBg {
+    100%{
+       filter:hue-rotate(360deg);
+    }
+ }
   .navbar a {
     color: #333;
     text-decoration: none;
@@ -24,7 +29,7 @@
     border: 2px solid black;
     border-radius: 15px 0 15px 0;
     padding: 3px;
-    box-shadow: 4px 3px blue;
+    box-shadow: 4px 3px rgb(249, 249, 250);
     background-color: black;
     color: white;
   }
@@ -33,7 +38,7 @@
   border: 2px solid black;
   border-radius: 15px 0 15px 0;
   padding: 3px;
-  box-shadow: 4px 3px blue;
+  box-shadow: 4px 3px rgb(249, 249, 251);
   background-color: black;
   color: white;
   }
