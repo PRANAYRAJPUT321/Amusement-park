@@ -91,19 +91,3 @@ text-align: center;
   box-shadow: 0 4px 7px rgb(168, 17, 135);
   margin-top: 20px;
 }
-.youtube-video{
-  width: 60%;
-  height: 50vh;
-  margin-left: auto;
-  margin-right: auto;
-  box-shadow: 4px 3px 5px 3px rgb(12, 12, 12);
-  margin-top: 20px;
-  
-  }
-  .youtube-video:hover{
-    width: 65%;
-    margin-left: auto;
-    margin-right: auto;
-  height: 54vh;
-  box-shadow: 2px 3px 2px 3px rgb(193, 43, 166);
-  }
