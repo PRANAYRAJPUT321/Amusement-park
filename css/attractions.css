@@ -50,7 +50,7 @@
     text-align: center;
     margin-top: 30px;
     color: #e2d9e2;
-    font-size: 65px;
+    font-size: 75px;
    
     font-weight: lighter;
     text-shadow: 2px 2px rgb(204, 82, 163);
@@ -65,7 +65,7 @@
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .pic{
-  height: 75vh;
+  height: 80vh;
   width: 88%;
   background: url(../images/attract.jpg) no-repeat;
    background-size: cover;
