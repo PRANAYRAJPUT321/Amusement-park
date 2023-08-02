@@ -50,10 +50,10 @@
     text-shadow: 2px 2px #0b0bf3;
 }
 
-.container{
+.content{
   background: url(../images/event1.jpg)no-repeat;
   background-size: cover;
-  height: 80vh;
+ height: 80vh;
   width: 100%;
   background-position: 70% 30%;
   justify-content: center;
@@ -66,5 +66,6 @@
 
 .events{
   font-style: italic;
-  
+  font-size: 30px;
+  margin-top: 3%;
 }
