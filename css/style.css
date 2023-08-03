@@ -104,8 +104,15 @@ margin: 10px ;
   height: 200px;
   width: 200px;
   border-radius: 20px 0 20px 0;
-  box-shadow: 3px 4px 3px 4px rgb(202, 199, 199);
-
+  box-shadow: rgb(38, 57, 77) 0px 10px 20px -10px;
+margin-left: 15px;
+}
+.sub-cards img:hover{
+  height: 210px;
+  width: 210px;
+  border-radius: 50px;
+  box-shadow: rgb(88, 212, 175) 0px 10px 20px -10px;
+margin-left: 15px;
 }
 
 
@@ -115,13 +122,14 @@ margin: 10px ;
   border: none;
   outline: none;
   color: #0d0d0d;
-  background: #eae4e4;
+  background: #f407c4;
   cursor: pointer;
   position: relative;
   z-index: 0;
-  border-radius: 10px 0 10px 0;
+  border-radius: 20px;
+  box-shadow: rgb(38, 57, 77) 0px 10px 20px -10px;
   justify-content: center;
-  margin-left: 30px;
+  margin-left: 38px;
   margin-right: auto;
   margin-top: 20px;
   font-size: 20px;
