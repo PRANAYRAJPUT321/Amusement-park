@@ -67,8 +67,8 @@ h1{
   .heading{
     text-align: center;
     color: #0e0d0e;
-    margin-bottom: 360px;
-    font-size: 35px;
+    /* margin-bottom: 360px; */
+    font-size: 38px;
     font-weight: 900;
     text-shadow: 2px 2px #d995e4;
     font-style: italic;
@@ -104,11 +104,11 @@ h1{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    margin-top: 20px;
   }
 
    .room-container{
     display: flex;
-    
     width: 360px;
     height: 500px;
     box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
