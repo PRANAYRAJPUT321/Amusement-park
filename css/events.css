@@ -104,7 +104,8 @@ text-align: center;
   width: 30%;
   height: 450px;
   box-shadow: rgb(0,0,0,0.3) 3px 3px 6px 0px inset;
-  
+  background-position: center;
+  background-size: cover;
 }
 
 .first{
