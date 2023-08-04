@@ -124,6 +124,15 @@ background-image: url(../images/event2.jpg);
   background-image: url(../images/event4.jpg);
 }
 
+.forth{
+  background-image: url(../images/event5.jpg);
+
+}
+
+.five{
+background-image: url(../images/event6.jpg);
+}
+
 .cont{
   width: 100%;
   height: 100%;
