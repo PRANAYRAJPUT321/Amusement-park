@@ -102,6 +102,19 @@ text-align: center;
 }
 .context{
   width: 30%;
-  height: 400px;
+  height: 450px;
   box-shadow: rgb(0,0,0,0.3) 3px 3px 6px 0px inset;
+  
+}
+
+.first{
+background-image: url(../images/event2.jpg);
+}
+
+.second{
+  background-image: url(../images/event3.jpg);
+}
+
+.third{
+  background-image: url(../images/event4.jpg);
 }
