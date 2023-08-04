@@ -149,5 +149,5 @@ background-image: url(../images/event2.jpg);
 }
 .context:hover > .cont{
   transform: translateY(0%);
-  background: linear-gradient(rgba);
+  background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7));
 }
