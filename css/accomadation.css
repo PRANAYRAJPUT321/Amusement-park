@@ -56,11 +56,11 @@
 }
 h1{
   text-align: center;
-    color: #f5eef3;
+    color: #39232e;
     margin-bottom: 360px;
     font-size: 65px;
     font-weight: 900;
-    text-shadow: 2px 2px #f0b783;
+    text-shadow: 2px 2px #edede6;
     font-style: italic;
     
   }
@@ -75,7 +75,7 @@ h1{
    
   }
   .container{
-    background: url(../images/room.jpg)no-repeat;
+    background: url(../images/hotel6.jpg)no-repeat;
     background-size: cover;
     height: 75vh;
     width: 88%;
@@ -88,7 +88,7 @@ h1{
   }
   
   .container:hover{
-    background: url(../images/hotel6.jpg)no-repeat;
+    background: url(../images/room.jpg)no-repeat;
     background-size: cover;
     height: 77vh;
     width: 90%;
