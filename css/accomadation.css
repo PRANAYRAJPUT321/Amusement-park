@@ -60,22 +60,22 @@ h1{
     margin-bottom: 360px;
     font-size: 65px;
     font-weight: 900;
-    text-shadow: 2px 2px #d995e4;
+    text-shadow: 2px 2px #f0b783;
     font-style: italic;
     
   }
   .heading{
     text-align: center;
     color: #0e0d0e;
-    margin-bottom: 360px;
-    font-size: 35px;
+    /* margin-bottom: 360px; */
+    font-size: 38px;
     font-weight: 900;
     text-shadow: 2px 2px #d995e4;
     font-style: italic;
    
   }
   .container{
-    background: url(../images/hotel5.jpg)no-repeat;
+    background: url(../images/room.jpg)no-repeat;
     background-size: cover;
     height: 75vh;
     width: 88%;
@@ -88,7 +88,7 @@ h1{
   }
   
   .container:hover{
-    background: url(../images/hotel4.jpg)no-repeat;
+    background: url(../images/hotel6.jpg)no-repeat;
     background-size: cover;
     height: 77vh;
     width: 90%;
@@ -99,4 +99,79 @@ h1{
     border-radius: 20px;
     box-shadow: 0 4px 7px rgb(168, 17, 135);
     margin-top: 20px;
+  }
+  .room-main-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 20px;
+  }
+
+   .room-container{
+    display: flex;
+    width: 360px;
+    height: 500px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+     margin-bottom: 10px;
+    margin-left: 40px;
+    
+   }
+   .btn{
+    width: 120px;
+    height: 5cqh;
+    border: none;
+    font-size:15px;
+    margin-left: 20px;
+    background-color: rgb(247, 230, 85);
+    color: #0e0d0e;
+    cursor: pointer;
+    margin-top: 10px;
+    
+    
+   }
+   .btn:hover{
+    background-color: rgb(148, 240, 57);
+    color: black;
+    box-shadow: 0 3px 3px rgb(224, 131, 131);
+   }
+   b{
+    margin-left: 20px;
+   }
+  
+   p,
+   h2{
+padding: 10px;
+   }
+.btn-2{
+  width: 120px;
+    height: 5cqh;
+    border: none;
+    font-size:15px;
+    margin-left: 80px;
+    background-color:black;
+    color:white;
+    cursor: pointer;
+}
+.btn-2:hover{
+  background-color: rgb(148, 240, 57);
+  color: black;
+  box-shadow: 0 3px 3px rgb(224, 131, 131);
+}
+
+.logo-2{
+  width: 30px;
+  margin-left: 10px;
+}
+  .room-rate{
+    width: 90px;
+   font-size: 20px;
+    color:white;
+    display: inline-block;
+    background-color: #0e0d0e;
+    padding: 9px;
+    margin-left: 10px;
+    margin-top: -40px;
+  }
+  .room-rate:hover{
+    box-shadow:2px 5px 4px rgb(240, 228, 122)
   }
