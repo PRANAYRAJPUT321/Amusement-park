@@ -162,6 +162,9 @@ padding: 10px;
   width: 30px;
   margin-left: 10px;
 }
+.logo-2:hover{
+  box-shadow:2px 5px 4px rgb(240, 228, 122)
+}
   .room-rate{
     width: 90px;
    font-size: 20px;
