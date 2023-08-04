@@ -45,7 +45,7 @@
   }
 
  
-h1{
+.container h1{
 text-align: center;
   color: #f5eef3;
   margin-bottom: 360px;
@@ -91,19 +91,63 @@ text-align: center;
   box-shadow: 0 4px 7px rgb(168, 17, 135);
   margin-top: 20px;
 }
-.youtube-video{
-  width: 60%;
-  height: 50vh;
-  margin-left: auto;
-  margin-right: auto;
-  box-shadow: 4px 3px 5px 3px rgb(12, 12, 12);
+
+.main{
+  width: 100%;
+  height: 500px;
   margin-top: 20px;
-  
-  }
-  .youtube-video:hover{
-    width: 65%;
-    margin-left: auto;
-    margin-right: auto;
-  height: 54vh;
-  box-shadow: 2px 3px 2px 3px rgb(193, 43, 166);
-  }
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.context{
+  width: 30%;
+  height: 450px;
+  box-shadow: rgb(0,0,0,0.3) 3px 3px 6px 0px inset;
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+  cursor: pointer;
+  overflow: hidden;
+  transition: all 0.8s;
+}
+
+.first{
+background-image: url(../images/event2.jpg);
+}
+
+.second{
+  background-image: url(../images/event3.jpg);
+}
+
+.third{
+  background-image: url(../images/event4.jpg);
+}
+
+.cont{
+  width: 100%;
+  height: 100%;
+  transform: translateY(70%);
+  transition: 0.7s ease-in-out;
+}
+.cont h1{
+  color: #f5eef3;
+  margin-left: 25px;
+  font-size: 30px;
+  text-shadow: 1px 1px 1px black;
+  padding-top: 50px;
+
+}
+.cont p{
+  text-align: justify;
+  width: 75%;
+  color: #f5eef3;
+  margin-left: 25px;
+  margin-top: 25px;
+  font-size: 13px;
+
+}
+.context:hover > .cont{
+  transform: translateY(0%);
+  background: linear-gradient(rgba);
+}
