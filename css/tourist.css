@@ -80,11 +80,14 @@
    
 }
 .main-container:hover{
-    box-shadow: 0 4px 7px rgb(233, 148, 78);
-    height: 510px;
+    box-shadow: 0 4px 7px rgb(78, 150, 233);
+    height: 75vh;
    width: 90%;
    margin-right: auto;
    margin-left: auto;
+   background: url(../images/family1.jpeg) no-repeat;
+   background-size: cover;
+  
 
 }
 

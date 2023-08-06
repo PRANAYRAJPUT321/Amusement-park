@@ -178,6 +178,13 @@ padding: 10px;
   .room-rate:hover{
     box-shadow:2px 5px 4px rgb(240, 228, 122)
   }
+
+  .font-size{
+    font-style: italic;
+    font-size: 30px;
+    text-shadow: 2px 3px #e4dc95;
+  }
+
   footer {
     background-color: rgb(30, 27, 41);
       padding: 40px 0;
