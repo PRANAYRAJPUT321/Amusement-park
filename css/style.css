@@ -88,6 +88,7 @@ margin: 10px ;
   font-size: 30px;
   margin-top: 69px;
   text-align: center;
+  text-shadow: 3px 3px rgb(233, 9, 173);
 }
 .cards{
   display: flex;
@@ -186,6 +187,14 @@ margin-left: 15px;
   0% { background-position: 0 0; }
   50% { background-position: 400% 0; }
   100% { background-position: 0 0; }
+}
+.heading2{
+  margin-top: 10px;
+  font-size: 60px;
+  text-align: center;
+  font-style: italic;
+  color: #0eaeed;
+  text-shadow: 3px 3px rgb(8, 8, 7);
 }
 
 .cards1{
