@@ -188,6 +188,23 @@ margin-left: 15px;
   100% { background-position: 0 0; }
 }
 
+.cards1{
+  display: flex;
+  background-color: #7a00ff;
+  height: 500px;
+  width: 100%;
+  justify-content:space-evenly;
+}
+.sub-section{
+  height: 400px;
+  width: 400px;
+  border: 2px solid;
+}
+.sub-section-img{
+  height: 390px;
+  width: 400px;
+}
+
 /* Footer Styles */
 footer {
   background-color: rgb(52, 48, 48);
