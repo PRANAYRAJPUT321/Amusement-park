@@ -182,6 +182,7 @@ padding: 10px;
   .font-size{
     font-style: italic;
     font-size: 30px;
+    text-shadow: 2px 3px #e4dc95;
   }
 
   footer {
