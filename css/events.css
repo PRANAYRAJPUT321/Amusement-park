@@ -79,7 +79,7 @@ text-align: center;
 }
 
 .container:hover{
-  background: url(../images/event1.jpg)no-repeat;
+  background: url(../images/event11.jpg)no-repeat;
   background-size: cover;
   height: 77vh;
   width: 90%;
@@ -134,6 +134,23 @@ background-image: url(../images/event2.jpg);
 background-image: url(../images/event6.jpg);
 }
 
+.six{
+  background-image: url(../images/event7.jpg);
+}
+
+.seven{
+  background-image: url(../images/event8.jpg);
+}
+
+.eight{
+  background-image: url(../images/event9.webp);
+
+}
+
+.nine{
+  background-image: url(../images/event10.jpeg);
+}
+
 .cont{
   width: 100%;
   height: 100%;
@@ -143,9 +160,9 @@ background-image: url(../images/event6.jpg);
 .cont h1{
   color: #f5eef3;
   margin-left: 25px;
-  font-size: 30px;
+  font-size: 50px;
   text-shadow: 1px 1px 1px black;
-  padding-top: 80px;
+  padding-top: 70px;
 
 }
 .cont p{
@@ -154,7 +171,7 @@ background-image: url(../images/event6.jpg);
   color: #f5eef3;
   margin-left: 25px;
   margin-top: 25px;
-  font-size: 13px;
+  font-size: 25px;
 
 }
 .context:hover > .cont{
@@ -169,4 +186,8 @@ background-image: url(../images/event6.jpg);
   border: none;
   color: #fff;
   background-color: #ff4c29;
+}
+
+.btn:hover{
+background-color: rgb(141, 105, 69);
 }
