@@ -100,7 +100,7 @@ h1{
     box-shadow: 0 4px 7px rgb(168, 17, 135);
     margin-top: 20px;
   }
-  /* body {
+  .ticket-container {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
@@ -109,7 +109,7 @@ h1{
     align-items: center;
     min-height: 100vh;
     background-color: #f0f0f0;
-} */
+}
 
 .ticket-card {
     width: 300px;
@@ -122,20 +122,25 @@ h1{
     transition: box-shadow 0.3s;
 }
 
+.ticket-card:hover {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
 .logo img {
     width: 100%;
     height: auto;
+    border-radius: 10px;
+    transition: transform 0.3s;
 }
 
 .info h2 {
-    margin-top: 10px;
-    font-size: 20px;
+    margin-top: 15px;
+    font-size: 24px;
     color: #333;
 }
 
 .info p {
     margin-top: 5px;
-    font-size: 16px;
+    font-size: 18px;
     color: #666;
 }
 
@@ -149,9 +154,19 @@ h1{
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    transition: background-color 0.3s;
 }
 
 #book-now-btn:hover {
     background-color: #ff8533;
+    transform: scale(1.05);
+}
+@keyframes fadeIn {
+  0% { opacity: 0; transform: translateY(-10px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+
+.fade-in-animation {
+  animation: fadeIn 0.5s ease-in-out;
 }
 
