@@ -67,9 +67,7 @@ h1{
   }
   .heading{
     text-align: center;
-   
-    color: #000000;
-    margin-bottom: 360px;
+   color: #000000;
     font-size: 35px;
     font-weight: 900;
     text-shadow: 2px 2px #d995e4;
@@ -102,7 +100,7 @@ h1{
     box-shadow: 0 4px 7px rgb(168, 17, 135);
     margin-top: 20px;
   }
-  body {
+  /* body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
@@ -111,7 +109,7 @@ h1{
     align-items: center;
     min-height: 100vh;
     background-color: #f0f0f0;
-}
+} */
 
 .ticket-card {
     width: 300px;
