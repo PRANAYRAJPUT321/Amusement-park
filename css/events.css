@@ -160,9 +160,9 @@ background-image: url(../images/event6.jpg);
 .cont h1{
   color: #f5eef3;
   margin-left: 25px;
-  font-size: 30px;
+  font-size: 50px;
   text-shadow: 1px 1px 1px black;
-  padding-top: 80px;
+  padding-top: 70px;
 
 }
 .cont p{
@@ -171,7 +171,7 @@ background-image: url(../images/event6.jpg);
   color: #f5eef3;
   margin-left: 25px;
   margin-top: 25px;
-  font-size: 13px;
+  font-size: 25px;
 
 }
 .context:hover > .cont{
@@ -186,4 +186,8 @@ background-image: url(../images/event6.jpg);
   border: none;
   color: #fff;
   background-color: #ff4c29;
+}
+
+.btn:hover{
+background-color: rgb(141, 105, 69);
 }
