@@ -56,12 +56,12 @@
     text-shadow: 2px 2px #0b0bf3;
 }
 h1{
-  text-align: center;
-    color: #f6eeee;
-    margin-bottom: 360px;
+  text-align: left;
+  margin-left: 20px;
+    color: #e9e4e4;
     font-size: 65px;
     font-weight: 900;
-    text-shadow: 2px 2px #db56ed;
+    text-shadow: 3px 3px #db56ed;
     font-style: italic;
     
   }
@@ -75,7 +75,7 @@ h1{
    
   }
   .container{
-    background: url(../images/ticket2.jpg)no-repeat;
+    background: url(../images/ticket2.webp)no-repeat;
     background-size: cover;
     height: 75vh;
     width: 88%;
@@ -123,8 +123,19 @@ h1{
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
     position: relative;
     overflow: hidden;
-    margin-left: 30px;
+    margin-left: 50px;
     transition: box-shadow 0.3s;
+}
+.heading1{
+  text-align: center;
+ color: #111213;
+  font-size: 55px;
+  font-style: italic;
+  font-weight: 900;
+  text-shadow: 4px 4px #1aaad1;
+  font-style: italic;
+  margin-left: 30px;
+ 
 }
 
 .ticket-card:hover {
