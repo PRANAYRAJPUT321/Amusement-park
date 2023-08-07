@@ -192,4 +192,22 @@ h1{
 .fade-in-animation {
   animation: fadeIn 0.5s ease-in-out;
 }
+.card2{
+  height: 360px;
+  width: 680px;
+  margin-left: 30px;
+  background-color: #f7f3f7;
+  border-radius: 20px;
+  border: 2px solid blue;
+  mix-blend-mode: color-burn;
+}
+.card2 img{
+  height: 300px;
+  width: 320px;
+  margin-top: 20px;
+  border-radius: 50%;
+  margin-left: 20px;
+}
+.card2 text{
 
+}
