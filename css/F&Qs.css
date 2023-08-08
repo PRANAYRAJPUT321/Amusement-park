@@ -41,14 +41,14 @@
     color: rgb(240, 239, 240);
     border: 2px solid rgb(239, 234, 234);
   }
-.navbar a.active {
+/* .navbar a.active {
   border: 2px solid rgb(246, 241, 241);
   border-radius: 15px 0 15px 0;
   padding: 3px;
   box-shadow: 4px 3px rgb(246, 246, 249);
   background-color: black;
   color: white;
-  }
+  } */
   .heading{
     justify-content: center;
     align-items: center;
@@ -58,14 +58,14 @@
     font-size: 35px;
     font-family: cursive;
     font-weight: lighter;
-    text-shadow: 2px 2px #0b0bf3;
+    text-shadow: 2px 2px #ececf3;
 }
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-image: url(../images/f&q4.jpg);
+    background-image: url(../images/amuse1.jpg);
     background-size: cover;
   }
 
@@ -76,6 +76,7 @@ body {
   }
 
   .faq {
+    background-color: transparent;
     border-bottom: 1px solid #ccc;
     padding: 20px;
     cursor: pointer;
@@ -83,15 +84,20 @@ body {
   }
 
   .faq:hover {
-    background-color: #f9f9f9;
+    background-color:transparent;
   }
 
   .question {
-    font-size: 18px;
-    font-weight: bold;
+    font-size: 23px;
+    font-weight: bolder;
+    text-shadow: 2px 2px rgb(240, 234, 240);
   }
 
   .answer {
+    font-size: 20px;
+    font-weight: bold;
+    color: #f81e2c;
+    text-shadow: 2px 2px rgb(236, 230, 236);
     display: none;
     margin-top: 10px;
     opacity: 0;
