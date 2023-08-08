@@ -31,7 +31,7 @@
     padding: 3px;
    background: linear-gradient(rgb(11, 107, 126), rgb(37, 226, 134));
     color: rgb(240, 239, 240);
-    border: 2px solid rgb(239, 234, 234);
+    border: 2px solid;
   }
 
 .navbar a.active {
