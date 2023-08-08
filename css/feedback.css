@@ -23,17 +23,24 @@
     font-family: cursive;
   }
 
-  .navbar a:hover{
+  /* .navbar a:hover{
     border: 2px solid black;
     border-radius: 15px 0 15px 0;
     padding: 3px;
     box-shadow: 4px 3px rgb(240, 240, 243);
     background-color: black;
     color: white;
+  } */
+  .navbar a:hover{
+    border-radius: 15px 0 15px 0;
+    padding: 3px;
+   background: linear-gradient(rgb(11, 107, 126), rgb(37, 226, 134));
+    color: rgb(240, 239, 240);
+    border: 2px solid rgb(239, 234, 234);
   }
 
 .navbar a.active {
-  border: 2px solid black;
+  border: 2px solid rgb(248, 245, 245);
   border-radius: 15px 0 15px 0;
   padding: 3px;
   box-shadow: 4px 3px blue;
