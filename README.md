@@ -1,4 +1,4 @@
-﻿# AMUSEMENT PARK 🏞️
+﻿# Amusement Park 🏞️
 
 Welcome to the official repository for the Amusement Park website! This README will provide you with an overview of the website's content, its structure, how to navigate through the various sections, and details on getting started. Whether you're a developer, a user, or just curious about what the park has to offer, this document will guide you through the different aspects of our website.
 
